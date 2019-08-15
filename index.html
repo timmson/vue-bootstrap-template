@@ -7,13 +7,15 @@
     <meta content="" name="description">
     <meta content="" name="author">
 
-    <title>Loan Amortization Schedule</title>
+    <title>Your fist Vue.js+Bootstrap app</title>
 
     <link rel="stylesheet" href="index.css">
 </head>
+<body>
 <div id="app" class="container">
-    <input class="form-control" placeholder="Enter yourname" type="text" id="username" v-model="username">
-    <p class="my-style" v-html="'Hello, ' + message + '!'"></p>
+    <h2>Your fist Vue.js+Bootstrap app</h2>
+    <input class="form-control mt-4" placeholder="Enter your name ..." type="text" id="username" v-model="username"/>
+    <p class="my-style mt-2" v-html="'Hello, ' + username + '!'" v-if="username.length"></p>
 </div>
 <script src="index.js"></script>
 </body>
