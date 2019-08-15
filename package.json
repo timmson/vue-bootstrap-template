@@ -1,6 +1,6 @@
 {
   "name": "vue-bootstrap-template",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "Template for Vue.js and Bootstrap application",
   "private": true,
   "scripts": {
