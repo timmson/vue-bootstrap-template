@@ -5,5 +5,5 @@
 node_modules/
 
 # Compiled files
-./index.css
-./index.js
+index.css
+index.js
