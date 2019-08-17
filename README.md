@@ -1,5 +1,9 @@
 # vue-bootstrap-template
 Template for Vue.js and Bootstrap application
+ - Vue.js 2.6
+ - Bootstrap 4
+ - SASS/SCSS support
+ - Webpack
 
 ### Clone
 ```sh
@@ -9,8 +13,7 @@ cd vue-bootstrap-template
 
 ### Install dependencies
 ```sh
-npm i vue bootstrap jquery popper.js --save
-npm i webpack webpack-cli css-loader mini-css-extract-plugin --save-dev
+npm i
 ```
 
 ### Run webpack
@@ -21,7 +24,9 @@ npm run dev
 ```
 #### Production mode
 ```sh
-npm run dev
+npm run prod
 ```
 
 ### Open index.html in browser
+
+Enjoy!

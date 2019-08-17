@@ -1,2 +1,9 @@
+# IDE files
 .idea
+
+# Intalled modules
 node_modules/
+
+# Compiled files
+./index.css
+./index.js

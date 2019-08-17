@@ -1,6 +1,5 @@
 import "bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./index.css";
+import "./index.scss";
 
 import Vue from "vue";
 
