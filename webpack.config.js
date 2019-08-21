@@ -3,7 +3,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const devMode = process.env.NODE_ENV !== "production";
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: "./src/index.ts",
     output: {
         path: path.resolve(__dirname, "./"),
         filename: "index.js"
@@ -28,10 +28,16 @@ module.exports = {
                     },
                     "sass-loader"
                 ]
+            },
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/
             }
         ]
     },
     resolve: {
+        extensions: [ '.tsx', '.ts', '.js' ],
         alias: {
             "vue$": "vue/dist/vue.esm.js"
         }

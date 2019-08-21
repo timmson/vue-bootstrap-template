@@ -19,7 +19,7 @@
             <p>Your name:</p>
         </div>
         <div class="col align-middle">
-            <input class="form-control mt-4" placeholder="Enter your name ..." type="text" id="username" v-model="username"/>
+            <input class="form-control mt-4" placeholder="Enter your name ..." type="text" id="username" v-model="user.name"/>
         </div>
     </div>
     <div class="row mt-3">
@@ -27,7 +27,7 @@
             &nbsp;
         </div>
         <div class="col">
-            <p class="my-style mt-2" v-html="'Hello, ' + username + '!'" v-if="username.length"></p>
+            <p class="my-style mt-2" v-html="'Hello, ' + user.name + '!'" v-if="user && user.name && user.name.length"></p>
         </div>
     </div>
 </div>
