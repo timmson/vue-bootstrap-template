@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npx webpack --mode development",
     "watch": "npx webpack --mode development --watch",
+    "test": "npx mocha -r ts-node/register test/**/*.spec.ts",
     "prod": "npx webpack --mode production"
   },
   "repository": {
@@ -24,14 +25,19 @@
     "vue": "2.6.10"
   },
   "devDependencies": {
+    "@types/chai": "^4.2.0",
+    "@types/mocha": "^5.2.7",
     "autoprefixer": "9.6.1",
+    "chai": "^4.2.0",
     "css-loader": "3.2.0",
     "mini-css-extract-plugin": "0.8.0",
+    "mocha": "^6.2.0",
     "node-sass": "4.12.0",
     "postcss-loader": "3.0.0",
     "precss": "4.0.0",
     "sass-loader": "7.2.0",
     "ts-loader": "6.0.4",
+    "ts-node": "^8.3.0",
     "typescript": "3.5.3",
     "webpack": "4.39.2",
     "webpack-cli": "3.3.6"
