@@ -1,4 +1,4 @@
-export class Calc {
+export default class Calc {
 
     public static hash(name: string) {
         let acc = 0;

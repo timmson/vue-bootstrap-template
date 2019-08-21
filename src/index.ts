@@ -1,7 +1,7 @@
 import "bootstrap";
 import "./index.scss";
 
-import {Calc} from "./calc"
+import Calc from "./calc"
 
 import Vue from "vue";
 

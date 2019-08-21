@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx webpack --mode development",
     "watch": "npx webpack --mode development --watch",
-    "test": "npx mocha -r ts-node/register test/**/*.spec.ts",
+    "test": "npx mocha -r ts-node/register test/**/test-*.ts",
     "prod": "npx webpack --mode production"
   },
   "repository": {
