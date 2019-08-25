@@ -5,7 +5,7 @@ import Calc from "./calc"
 
 import Vue from "vue";
 
-let app = new Vue({
+new Vue({
     el: "#app",
     data: {
         name: ""

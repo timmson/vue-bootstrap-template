@@ -1,9 +1,5 @@
-# IDE files
-.idea
-
-# Intalled modules
+*.iml
+.idea/
 node_modules/
-
-# Compiled files
-index.css
-index.js
+.nyc_output
+coverage.lcov

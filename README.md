@@ -3,7 +3,8 @@ Template for Vue.js and Bootstrap application
  - Typescript 3.5
  - Vue.js 2.6
  - Bootstrap 4
- - Webpack 4.39
+ - ESLint, Mocha, Chai & NYC
+ - Webpack
  - SASS/SCSS support
 
 ### Clone
