@@ -27,9 +27,12 @@
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@babel/preset-env": "7.9.6",
     "@types/chai": "^4.2.11",
     "@types/mocha": "^7.0.2",
     "autoprefixer": "^9.7.6",
+    "babel-loader": "8.1.0",
+    "babel-polyfill": "6.26.0",
     "chai": "^4.2.0",
     "css-loader": "^3.5.3",
     "eslint": "^6.8.0",
