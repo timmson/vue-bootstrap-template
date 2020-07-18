@@ -4,7 +4,7 @@
   "description": "Template for Vue.js and Bootstrap application",
   "private": true,
   "scripts": {
-    "lint": "npx eslint ./src ./test",
+    "lint": "npx eslint ./src ./test --fix",
     "dev": "npx webpack --mode development",
     "watch": "npx webpack --mode development --watch",
     "test": "npx mocha",
@@ -38,7 +38,7 @@
     "eslint": "^6.8.0",
     "mini-css-extract-plugin": "^0.9.0",
     "mocha": "^7.1.2",
-    "node-sass": "^4.14.0",
+    "node-sass": "^4.14.1",
     "nyc": "^15.0.1",
     "postcss-loader": "^3.0.0",
     "precss": "^4.0.0",
