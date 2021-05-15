@@ -1,6 +1,5 @@
 # vue-bootstrap-template
 Template for Vue.js and Bootstrap application
- - Typescript 3.5
  - Vue.js 2.6
  - Bootstrap 4
  - ESLint, Jest
