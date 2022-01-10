@@ -1,8 +1,9 @@
 # vue-bootstrap-template
 Template for Vue.js and Bootstrap application
- - Vue.js 2.6
- - Bootstrap 4
- - ESLint, Jest
+
+- Vue.js 2.6
+- Bootstrap 5
+- ESLint, Jest
  - Webpack
  - SASS/SCSS support
 
